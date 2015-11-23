@@ -1,0 +1,11 @@
+{% extends 'layout.html' %}
+
+{% block page %}index{% endblock %}
+
+{% block content %}
+
+<!-- PRESS start -->
+<!-- PRESS END -->
+
+
+{% endblock %}

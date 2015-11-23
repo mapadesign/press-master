@@ -1,0 +1,382 @@
+
+<!DOCTYPE html>
+<!--[if IE 8 ]><html class="ie8" lang="en"><![endif]-->
+<!--[if IE 9 ]><html class="ie9" lang="en"><![endif]-->
+<!--[if (gte IE 10)|!(IE)]><!--><html xmlns="http://www.w3.org/1999/xhtml" lang="en-US"><!--<![endif]-->
+<head>
+	<title>{% block title %} News Site {% endblock %}</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+	<!-- Seo Meta -->
+		<meta name="description" content="MojPress- Responsive News/Blog/Magazine HTML5 Template">
+		<meta name="keywords" content="iPress, magazine, light, dark, themeforest, multi purpose, premium, unlimited, blog, news, AD, optimized">
+
+	<!-- Styles -->
+		<link rel="stylesheet" type="text/css" href="/static/css/style.css" media="screen" />
+		<link rel="stylesheet" type="text/css" href="/static/css/styles/icons.css" media="screen" />
+		<link rel="stylesheet" type="text/css" href="/static/css/styles/animate.css" media="screen" />
+		<link rel="stylesheet" type="text/css" href="/static/css/styles/responsive.css" media="screen" />
+		<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,100,500' rel='stylesheet' type='text/css'>
+
+	<!-- Favicon -->
+		<link rel="shortcut icon" href="/static/img/favicon.ico">
+		<link rel="apple-touch-icon" href="/static/img/apple-touch-icon.png">
+
+	<!--[if IE]>
+		<meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=EmulateIE8; IE=EDGE" />
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
+<body id="{% block page %}{% endblock %}">
+	<div id="layout" class="boxed">
+        {% block header %}
+		<header id="header">
+			<div class="a_head">
+				<div class="row clearfix">
+					<div class="breaking_news lefter">
+						<div class="freq_out">
+							<div class="freq"><div class="inner_f"></div><div id="layerBall"></div></div>
+						</div><!-- /freq -->
+						<ul id="js-news" class="js-hidden">
+							<li class="news-item"><a href="#">Improving Search on the Envato Marketplaces: 2013 in Review</a></li>
+							<li class="news-item"><a href="#">4 Ways To Find Free and Unique Photos for Your Next Website Theme</a></li>
+							<li class="news-item"><a href="#">Community Poll: Internet Speeds From Around the World in 2013</a></li>
+							<li class="news-item"><a href="#">New Hub, Header & Collections: 10 Ways to Improve Your Marketplaces Productivity</a></li>
+							<li class="news-item"><a href="#">Get a Free Year of Tuts+ Premium by Trying New Relic</a></li>
+							<li class="news-item"><a href="#">Beyond Bland: 10+ Creative Packaging Designs That Will Leave You Inspired</a></li>
+						</ul><!-- /js news -->
+					</div><!-- /breaking news -->
+
+					<div class="right_bar">
+						<div class="lang">
+							<a class="activated_lang" href="#"><img src="/static/img/flag/us.png" alt="EN"></a>
+							<div class="more_lang">
+								<a href="#"><img src="/static/img/flag/gr.png" alt=""></a>
+								<a href="#"><img src="/static/img/flag/fr.png" alt=""></a>
+							</div><!-- /more lang -->
+						</div><!-- /lang -->
+
+						<div class="social social_head">
+							<a href="#" class="bottomtip" title="Twitter"><i class="fa-twitter"></i></a>
+							<a href="#" class="bottomtip" title="Facebook"><i class="fa-facebook"></i></a>
+							<a href="#" class="bottomtip" title="Google Plus"><i class="fa-google-plus"></i></a>
+							<a href="#" class="bottomtip" title="Linkedin"><i class="fa-linkedin"></i></a>
+							<a href="#" class="bottomtip" title="Github"><i class="fa-github"></i></a>
+							<a href="#" class="bottomtip" title="instagram"><i class="fa-instagram"></i></a>
+							<a href="#" class="bottomtip" title="Dribbble"><i class="fa-dribbble"></i></a>
+						</div><!-- /social -->
+
+						<span id="date_time"></span><!-- /date -->
+					</div><!-- /right bar -->
+				</div><!-- /row -->
+			</div><!-- /a head -->
+
+			<div class="b_head">
+				<div class="row clearfix">
+					<div class="logo">
+						<a href="/" title="MojPress- Responsive News/Blog/Magazine HTML5"><img src="/static/img/logo.png" alt="MojPress- Responsive News/Blog/Magazine HTML5"></a>
+					</div><!-- /logo -->
+	
+					<div class="ads">
+						<a href="#" title="ADS"><img src="http://placehold.it/750x90" alt="ADS"></a>
+					</div><!-- /ads -->
+				</div><!-- /row -->
+			</div><!-- /b head -->
+
+			<div class="row clearfix">
+				<div class="sticky_true">
+					<div class="c_head clearfix">
+						<nav>
+							<ul class="sf-menu">
+								<li class="current colordefault home_class"><a href="index.html"><i class="icon-home"></i></a>
+									<ul>
+										<li><a href="index_right_sidebars.html">Rigth Sidebars</a></li>
+										<li><a href="index_left_sidebars.html">Left Sidebars</a></li>
+										<li><a href="index_new_2.html">Homepage 2</a></li>
+										<li><a href="index_new_3.html">Homepage 3</a></li>
+									</ul>
+								</li>
+								<li class="color1"><a href="#"><i class="fa-reorder"></i></a>
+									<ul>
+										<li><a href="shortcodes.html"><i class="icon-gear"></i>Shortcodes</a></li>
+										<li><a href="rtl.html"><i class="icon-user"></i>RTL Version</a></li>
+										<li><a href="single.html"><i class="icon-camera"></i>Single post</a></li>
+										<li><a href="category.html"><i class="icon-music"></i>Category page</a></li>
+										<li><a href="404.html"><i class="icon-media-play"></i>Error 404</a></li>
+										<li><a href="#"><i class="icon-map"></i>3rd Menu</a>
+											<ul>
+												<li><a href="#">Example 1</a></li>
+												<li><a href="#">Example 2</a>
+													<ul>
+														<li><a href="#">Example 1</a></li>
+														<li><a href="#">Example 2</a></li>
+													</ul>
+												</li>
+											</ul>
+										</li>
+									</ul>
+								</li>
+								<li class="color2"><a href="category.html">Travel</a>
+									<ul class="col4 mega">
+										<li class="col1">
+											<a href="single.html">
+												<img src="/static/img/assets/m_1.jpg" alt="#" title="#">
+												<h4> Here's What Instagram Ads Will Look Like </h4>
+											</a>
+										</li>
+										<li class="col1">
+											<a href="single.html">
+												<img src="/static/img/assets/m_2.jpg" alt="#" title="#">
+												<h4> Lorem Ipsum is simply dummy text </h4>
+											</a>
+										</li>
+										<li class="col1">
+											<a href="single.html">
+												<img src="/static/img/assets/m_3.jpg" alt="#" title="#">
+												<h4> What do you think about our website </h4>
+											</a>
+										</li>
+										<li class="col1">
+											<a href="single.html">
+												<img src="/static/img/assets/m_4.jpg" alt="#" title="#">
+												<h4> Printer took a galley of type and scrambled </h4>
+											</a>
+										</li>
+									</ul>
+								</li>
+								<li class="color3"><a href="category.html">People</a>
+									<ul class="col4 mega">
+										<li class="col1">
+											<a href="single.html">
+												<img src="/static/img/assets/m_1.jpg" alt="#" title="#">
+												<h4> Here's What Instagram Ads Will Look Like </h4>
+											</a>
+										</li>
+										<li class="col1">
+											<a href="single.html">
+												<img src="/static/img/assets/m_2.jpg" alt="#" title="#">
+												<h4> Lorem Ipsum is simply dummy text </h4>
+											</a>
+										</li>
+										<li class="col1">
+											<a href="single.html">
+												<img src="/static/img/assets/m_3.jpg" alt="#" title="#">
+												<h4> What do you think about our website </h4>
+											</a>
+										</li>
+										<div class="col1">
+											<li><a href="#">Example 1</a></li>
+											<li><a href="#">Example 2</a></li>
+											<li><a href="#">Example 3</a></li>
+											<li><a href="#">Example 4</a></li>
+											<li><a href="#">Example 5</a></li>
+										</div>
+									</ul>
+								</li>
+								<li class="color4"><a href="category.html">Sports</a>
+									<ul class="col4 mega">
+										<div class="col1">
+											<li><a href="#">Example 1</a></li>
+											<li><a href="#">Example 2</a></li>
+											<li><a href="#">Example 3</a></li>
+											<li><a href="#">Example 4</a></li>
+											<li><a href="#">Example 5</a></li>
+										</div>
+										<div class="col1">
+											<li><a href="#">Example 6</a></li>
+											<li><a href="#">Example 7</a></li>
+											<li><a href="#">Example 8</a></li>
+											<li><a href="#">Example 9</a></li>
+											<li><a href="#">Example 10</a></li>
+										</div>
+										<div class="col1">
+											<li><a href="#">Example 11</a></li>
+											<li><a href="#">Example 12</a></li>
+											<li><a href="#">Example 13</a></li>
+											<li><a href="#">Example 14</a></li>
+											<li><a href="#">Example 15</a></li>
+										</div>
+										<div class="col1">
+											<li><a href="#">Example 16</a></li>
+											<li><a href="#">Example 17</a></li>
+											<li><a href="#">Example 18</a></li>
+											<li><a href="#">Example 19</a></li>
+											<li><a href="#">Example 20</a></li>
+										</div>
+									</ul>
+								</li>
+								<li class="color5"><a href="category.html">Music</a></li>
+								<li class="color6"><a href="category.html">TV</a></li>
+								<li class="color7"><a href="category.html">Entertainment</a></li>
+								<li class="color8"><a href="contact.html">Contact</a></li>
+							</ul><!-- /menu -->
+						</nav><!-- /nav -->
+	
+						<div class="right_icons">
+							<a class="random_post bottomtip" href="#" title="Random Post"><i class="icon-media-shuffle"></i></a><!-- /random post -->
+	
+							<div class="search">
+								<div class="search_icon"><i class="fa-search"></i></div>
+								<div class="s_form">
+									<form action="search_result.html" id="search" method="get">
+										<input id="inputhead" name="search" type="text" onfocus="if (this.value=='Start Searching...') this.value = '';" onblur="if (this.value=='') this.value = 'Start Searching...';" value="Start Searching..." placeholder="Start Searching ...">
+										<button type="submit"><i class="fa-search"></i></button>
+									</form><!-- /form -->
+								</div><!-- /s form -->
+							</div><!-- /search -->
+						</div><!-- /right icons -->
+					</div><!-- /c head -->
+				</div><!-- /sticky -->
+			</div><!-- /row -->
+		</header><!-- /header -->
+        {% endblock %}
+        
+        {% block content %}
+		{% endblock %}
+
+		{% block footer %}
+
+        <!-- page content -->
+        
+
+		<footer id="footer">
+			<div class="row clearfix">
+				<div class="grid_3">
+					<div class="widget">
+						<div class="title"><h4>About iPress</h4></div>
+						<p> MojPressis a magazine/blog/ad/review template. Nunc montes odio phasellus dignissim, aenean, nec augue velit integer elementum ut montes quis integer cursus, est purus, lectus duis, scelerisque tincidunt ultricies phasellus elementum turpis tristique.<br><br>
+
+Email:	<a href="contact.html">information@ipress.com</a> </p>
+					</div><!-- /widget -->
+				</div><!-- /grid3 -->
+
+				<div class="grid_3">
+					<div class="widget">
+						<div class="title"><h4>Recent Posts</h4></div>
+						<ul class="small_posts">
+							<li class="clearfix">
+								<a class="s_thumb float-shadow" href="single.html"><img width="70" height="70" src="/static/img/assets/thumb4.jpg" alt="#"></a>
+								<h3><a href="single.html">What is the worst could be the worst?</a></h3>
+								<div class="meta mb"> 1 day ago  /  <a href="single.html">1 comment</a> </div>
+							</li>
+							<li class="clearfix">
+								<a class="s_thumb float-shadow" href="single.html"><img width="70" height="70" src="/static/img/assets/thumb5.jpg" alt="#"></a>
+								<h3><a href="single.html">Praesent ipsum adipiscing mi eget ipsum</a></h3>
+								<div class="meta mb"> 3 days ago  /  <a href="single.html">3 comments</a> </div>
+							</li>
+							<li class="clearfix">
+								<a class="s_thumb float-shadow" href="single.html"><img width="70" height="70" src="/static/img/assets/thumb6.jpg" alt="#"></a>
+								<h3><a href="single.html">Paul Thomson on post with SoundCloud</a></h3>
+								<div class="meta mb"> 6 days ago  /  <a href="single.html">5 comments</a> </div>
+							</li>
+						</ul>
+					</div><!-- /widget -->
+				</div><!-- /grid3 -->
+
+				<div class="grid_3">
+					<div class="widget">
+						<div class="title"><h4>Best Reviews</h4></div>
+						<ul class="small_posts">
+							<li class="clearfix">
+								<a class="s_thumb float-shadow" href="single.html"><img width="70" height="70" src="/static/img/assets/thumb13.jpg" alt="#"></a>
+								<h3><a href="single.html">What is the worst could be the worst?</a></h3>
+								<div class="meta mb"> <a class="cat color1" href="#" title="View all posts under Entertainment">Entertainment</a><span class="post_rating" href="#" title="Rating">8.89</span> </div>
+							</li>
+							<li class="clearfix">
+								<a class="s_thumb float-shadow" href="single.html"><img width="70" height="70" src="/static/img/assets/thumb12.jpg" alt="#"></a>
+								<h3><a href="single.html">Praesent ipsum adipiscing mi eget ipsum</a></h3>
+								<div class="meta mb"> <a class="cat color3" href="#" title="View all posts under News">News</a><span class="post_rating" href="#" title="Rating">8.1</span> </div>
+							</li>
+							<li class="clearfix">
+								<a class="s_thumb float-shadow" href="single.html"><img width="70" height="70" src="/static/img/assets/thumb11.jpg" alt="#"></a>
+								<h3><a href="single.html">Paul Thomson on post with SoundCloud</a></h3>
+								<div class="meta mb"> <a class="cat color4" href="#" title="View all posts under Sports">Sports</a><span class="post_rating" href="#" title="Rating">7.95</span> </div>
+							</li>
+						</ul>
+					</div><!-- /widget -->
+				</div><!-- /grid3 -->
+
+				<div class="grid_3">
+					<div class="widget">
+						<div class="title"><h4>Newsletters</h4></div>
+						<p> To receive the latest updates and Latest Posts enter your email. </p>
+						<form id="newsletters" method="post" action="http://feedburner.google.com/fb/a/mailverify" target="popupwindow" onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=sevenpsd', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true">
+							<input type="email" onfocus="if (this.value=='Type Your Email') this.value = '';" onblur="if (this.value=='') this.value = 'Type Your Email';" value="Type Your Email" placeholder="Type Your Email" required="required">
+							<button type="submit"><i class="icon-checkmark"></i></button>
+						</form>
+					</div><!-- /widget -->
+
+					<div class="widget">
+						<div class="title"><h4>Follow us</h4></div>
+						<div class="social">
+							<a href="#" class="toptip" title="Twitter"><i class="fa-twitter"></i></a>
+							<a href="#" class="toptip" title="Facebook"><i class="fa-facebook"></i></a>
+							<a href="#" class="toptip" title="Google Plus"><i class="fa-google-plus"></i></a>
+							<a href="#" class="toptip" title="Linkedin"><i class="fa-linkedin"></i></a>
+							<a href="#" class="toptip" title="Github"><i class="fa-github"></i></a>
+							<a href="#" class="toptip" title="instagram"><i class="fa-instagram"></i></a>
+							<a href="#" class="toptip" title="Dribbble"><i class="fa-dribbble"></i></a>
+						</div><!-- /social -->
+					</div><!-- /widget -->
+				</div><!-- /grid3 -->
+
+			</div><!-- /row -->
+
+			<div class="row clearfix">
+				<div class="footer_last">
+					<span class="copyright">© 2015 <a href="http://neoart.rs/">NEOART </a>. All Rights Reserved. Powered by <a href="http://neoart.rs">NEOART NODE.JS TEAM</a>.</span>
+
+					<div id="toTop" class="toptip" title="Back to Top"><i class="icon-arrow-thin-up"></i></div>
+				</div><!-- /last footer -->
+			</div><!-- /row -->
+
+		</footer><!-- /footer -->
+        {% endblock %}
+
+	</div><!-- /layout -->
+
+
+		{% block scripts %}
+	<!-- Scripts -->
+		
+    {% endblock %}
+    {% block js %} 
+    <script type="text/javascript" src="/static/js/jquery.min.js"></script>
+		<script type="text/javascript" src="/static/js/ipress.js"></script>
+		<script type="text/javascript" src="/static/js/owl.carousel.min.js"></script>
+		<script type="text/javascript" src="/static/js/jquery.ticker.js"></script>
+		<script type="text/javascript" src="/static/js/custom.js"></script>
+		<script type="text/javascript">
+		</script>
+    <script>
+    /* <![CDATA[ */
+			function date_time(id){
+				date = new Date;
+				year = date.getFullYear();
+				month = date.getMonth();
+				months = new Array('January', 'February', 'March', 'April', 'May', 'June', 'Jully', 'August', 'September', 'October', 'November', 'December');
+				d = date.getDate();
+				day = date.getDay();
+				days = new Array('Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday');
+				h = date.getHours();
+				if(h<10){
+					h = "0"+h;}
+					m = date.getMinutes();
+					if(m<10){
+						m = "0"+m;
+					}
+					s = date.getSeconds();
+					if(s<10){
+						s = "0"+s;
+					}
+				// result = ''+days[day]+' '+months[month]+' '+d+' '+year+' '+h+':'+m+':'+s;
+				result = ''+days[day]+' '+d+' '+months[month]+' '+year;
+				document.getElementById(id).innerHTML = result;
+				setTimeout('date_time("'+id+'");','1000');
+				return true;
+			}
+			window.onload = date_time('date_time');
+		/* ]]> */ </script> 
+    {% endblock %}
+</body>
+</html>

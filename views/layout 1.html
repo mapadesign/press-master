@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>{% block title %}News Site{% endblock %}</title>
+		<meta charset="utf-8"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<meta name="description" content="{% block description %}Dating revisited in mutually beneficial relationships{% endblock %}"/>
+
+		<link rel="stylesheet" type="text/css" href="/static/css/bootstranimate.min.css"/>
+		<link rel="stylesheet" type="text/css" href="/static/css/style.css"/>
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Roboto|Open+Sans"/>
+        <meta name="robots" content="noindex,follow" />
+
+		<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+	</head>
+
+	<body id="{% block page %}{% endblock %}">
+		{% block header %}
+			<section id="menu">
+				<div class="container">
+					<div class="row-fluid">
+						<div class="col-xs-2">
+							<a href="/"><img class="logo img-responsive" src="/static/images/news150.png"/></a>
+						</div>
+                        <!-- start Mega Menu -->
+<ul class="menu slide">
+
+				
+                        <div class="col-xs-9 right">
+							<div class="navi">Sign In - <a href="#">Join</a></div>
+						</div>
+					</div>
+				</div>
+			</section>
+		{% endblock %}
+
+		{% block content %}
+		{% endblock %}
+
+		{% block footer %}
+			<section id="footer">
+				<div class="container">
+					<div class="row-fluid">
+						<div class="col-xs-12 col-sm-6 col-md-4">
+							<a href="#"><img class="img-responsive logo" src="/static/images/news150.png"/></a>
+							<p>This is the best news site in the wold .</p>
+						</div>
+						<div class="col-xs-6 col-sm-3 col-md-3">
+							<h3>Our company</h3>
+							<ul>
+								<li><a href="/about">About us</a></li>
+								<li><a href="/privacy">Privacy</a></li>
+								<li><a href="/terms">Terms</a></li>
+							</ul>
+						</div>
+						<div class="col-xs-6 col-sm-3 col-md-3">
+							<h3>Suggar Dating</h3>
+							<ul>
+								<li><a href="/support">Support</a></li>
+								<li><a href="/press">Press and Media</a></li>
+								<li><a href="/background">Background Check</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
+		{% endblock %}
+
+		{% block scripts %}
+		<section id="scripts">
+			<script type="text/javascript" src="/static/js/jquery-1.10.2.js"></script>
+			<script type="text/javascript" src="/static/js/carousel.js"></script>
+			<script type="text/javascript" src="/static/js/bootstrap.min.js"></script>
+			<script type="text/javascript" src="/socket.io/socket.io.js"></script>
+			<script type="text/javascript" src="/static/js/client.js"></script>
+			{% block js %}{% endblock %}
+		</section>
+		{% endblock %}
+
+		<!-- Force 3d acceleration always and forever :) -->
+		<div style="-webkit-transform: translateZ(0)"></div>
+	</body>
+</html>
