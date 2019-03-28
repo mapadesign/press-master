@@ -2,8 +2,7 @@
   "name": "Press",
   "version": "0.0.1",
   "main": "app.js",
-  "dependencies": {
-    "express": "3.10.x",
+  "dependencies">=3.11.x",
     "socket.io": "0.9.x",
     "swig": "~1.2.2"
   },
