@@ -2,13 +2,13 @@
   "name": "Press",
   "version": "0.0.1",
   "main": "app.js",
-  "dependencies">=3.11.x",
+  "dependencies">3.11.x",
     "socket.io": "0.9.x",
-    "swig": "~1.2.2"
+    "swig": ">1.2.2"
   },
   "subdomain": "press",
   
   "engines": {
-    "node": "0.10.x"
+    "node": ">0.10.x"
   }
 }
